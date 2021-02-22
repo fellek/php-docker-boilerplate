@@ -19,7 +19,6 @@ services:
     ports:
       - "8002:80"
       - "8443:443"
-      - "22:22"
     volumes:
       - ./app/:/app/
       - ./:/docker/
@@ -177,6 +176,8 @@ services:
     env_file:
       - etc/environment.yml
       - etc/environment.development.yml
+    ports:
+      - "22:22"
 
   #######################################
   # phpMyAdmin

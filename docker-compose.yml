@@ -183,16 +183,16 @@ services:
   #######################################
   # phpMyAdmin
   #######################################
-  phpmyadmin:
-    image: phpmyadmin/phpmyadmin
-    links:
-      - mysql
-    environment:
-      - PMA_HOSTS=mysql
-      - VIRTUAL_HOST=pma.fellek.com
-      - VIRTUAL_PORT=80
-    volumes:
-      - phpmyadmin:/sessions
+  #phpmyadmin:
+  #  image: phpmyadmin/phpmyadmin
+  #  links:
+  #    - mysql
+  #  environment:
+  #    - PMA_HOSTS=mysql
+  #    - VIRTUAL_HOST=pma.fellek.com
+  #    - VIRTUAL_PORT=80
+  #  volumes:
+  #    - phpmyadmin:/sessions
 
 volumes:
   mysql:

@@ -177,7 +177,8 @@ services:
       - etc/environment.yml
       - etc/environment.development.yml
     ports:
-      - "22:22"
+      - "20:20"
+      - "21:21"
 
   #######################################
   # phpMyAdmin

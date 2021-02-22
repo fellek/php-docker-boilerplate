@@ -74,5 +74,5 @@ POSTGRES_DATABASE=dev
 # FTP settings
 FTP_USER=dev
 FTP_PASSWORD=dev
-FTP_PATH=/storage/ftp/
-#FTP_PATH=/app/
+#FTP_PATH=/storage/ftp/
+FTP_PATH=/app/

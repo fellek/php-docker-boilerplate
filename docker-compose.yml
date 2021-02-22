@@ -185,7 +185,7 @@ services:
   #######################################
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
-    links:x
+    links:
       - mysql
     environment:
       - PMA_HOSTS=mysql

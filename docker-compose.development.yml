@@ -17,7 +17,7 @@ services:
       #- memcached
       - ftp
     ports:
-      - "8001:80"
+      - "8002:80"
       - "8443:443"
       - "19591:22"
     volumes:

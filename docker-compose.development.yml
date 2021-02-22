@@ -17,9 +17,9 @@ services:
       #- memcached
       - ftp
     ports:
-      - "8000:80"
+      - "8001:80"
       - "8443:443"
-      - "1959:22"
+      - "19591:22"
     volumes:
       - ./app/:/app/
       - ./:/docker/

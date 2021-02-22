@@ -49,7 +49,7 @@ CLI_SCRIPT=php /app/index.php
 # -> ssh-rsa AAAAB3Nza....
 #  Github public ssh keys:
 # -> https://github.com/USERNAME.keys
-SSH_AUTH_KEY=""
+SSH_AUTH_KEY="ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCwjoOUWnw9+JoPmE0cXaNtesLLJNN+VVawRX91ViHjpt95G7Id4gKz1H8w3iK+Ja1ms2F+sLZ3zmbObX1V1GjD0wgmymdCTFehygdwA/Sao+in9kb3tzms4VLiI4WXDMoXx/6tVXlLYiW73osr8nN2s6ZS2gqeBk0ZXwu7fTHiUJsSnkkvcCIVTimzv/xjGnDNfUiyDDuSHuFDVANrbPZgmXD0E9nwMog5eTcW8BKHAtW9Q4ouCcNyxV7+eHYz5EPbhOtEDoBA6Zs6u44zBlWI27YajLYXlpAlVoJRx7gweVY4p4aTtaAKHRMScFuLvx6YS8azNFe3S3P8OHSC32Wmn8XeKwq7OAZSn+GHl/MONEYeSEt45mDqiufUhNTZIa6m9elpBMh3K2IJtfThqiKSnEi1KMQdoar/x0xVW+yHFzNe+RRrLxvxuo5uLgBThuE2G/6tPmTqwsdGM2Mtz5kYgl7SJP7CSjHHK+i/+AoJKJMa4ggvqMsh20cvUnWHk407dglXLkA9D2yF+1b5Xsn8jHaHweulUHUK2nhdEfVF1otwIO4GOApUQF9g6ngiR4nsEwfmH4iuo2R+facI6BJSuohbMiV4R9PPNUkIEZMFRlTiYquPGvZ/CqoQxVQBhl78GCpwTBbLmQZYSh5G49fiVF3qS8A41jdQaCbusCXPqw== fm@fellek.net"
 
 #######################################
 # MySQL settings

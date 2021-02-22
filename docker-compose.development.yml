@@ -15,11 +15,11 @@ services:
       #- elasticsearch
       #- redis
       #- memcached
-      #- ftp
+      - ftp
     ports:
       - "8000:80"
       - "8443:443"
-      - "10022:22"
+      - "1959:22"
     volumes:
       - ./app/:/app/
       - ./:/docker/
